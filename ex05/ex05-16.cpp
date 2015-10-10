@@ -15,7 +15,7 @@ int main()
 	replace(vector1.begin(), vector1.end(), 'R', 'S');
 
 	assert(string(vector1.begin(), vector1.end())
-           == string("ESSASI"));
+           == string("FESSASI"));
 	cout << " --- OK." << endl;
 
 	return 0;
