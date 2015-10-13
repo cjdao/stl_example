@@ -42,8 +42,10 @@ set 和 multiset的迭代器是**双向迭代器**
 ------------------------------------------
 `
 set (const Compare& comp = Cmpare());
+
 template <typename InputIterator>
 set (InputIterator fist, InputIterator last, const Compare& comp = Cmpare());
+
 set (const set<Key, Compare, Allocator>& otherSet);
 `
 
