@@ -49,17 +49,14 @@ set (const set<Key, Compare, Allocator>& otherSet);
 ### 插入
 set:
 ```cpp
+//iterator 指向x在集合中的位置，bool类型指示插入是否成功。
 pair<iterator,bool> insert(const value_type& x);
 ```
 
-iterator 指向x在集合中的位置，bool类型指示插入是否成功。
-
-multiset:
 ```cpp
+//iterator 指向x在集合中的位置
 iterator insert(const value_type& x);
 ```
-
-iterator 指向x在集合中的位置
 
 insert的时间复杂度为O(logN), N为保存在set或multiset中的元素个数。
 
