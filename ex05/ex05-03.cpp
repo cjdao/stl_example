@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	cout << "Using the generic sort algorithm "
-		 << "with a binary predicate." <<endl;
+	     << "with a binary predicate." <<endl;
 
 	int a[ARRAY_SIZE];
 	int i;

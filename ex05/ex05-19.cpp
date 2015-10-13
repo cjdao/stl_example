@@ -16,6 +16,7 @@ Container make(const char *s)
 int main()
 {
 	cout << "Illustrating the generic swap_ranges algorithm." << endl;
+
 	vector<char> vector1 = make<vector<char> >("HELLO"),
 	             vector2 = make<vector<char> >("THERE");
 

@@ -9,6 +9,7 @@ using namespace std;
 int main()
 {
 	cout << "Illustrating the generic search algorithm." << endl;
+
 	vector<int> vec1(20);
 	deque<int> deq1(5);
 	int i;

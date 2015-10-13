@@ -15,6 +15,7 @@ Container make(const char *s)
 int main()
 {
 	cout << "Demonstrating STL vector erase function." << endl;
+
 	vector<char> vector1 =  make<vector<char> >("remembering");
 	vector<char>::iterator j;
 	j = find(vector1.begin(), vector1.end(), 'm');

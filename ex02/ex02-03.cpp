@@ -16,9 +16,9 @@ int main()
 {
 	cout << "Using reverse algorithm with a list." << endl;
 	list<char> list1 = make<list<char> >("mark twain");
-    reverse(list1.begin(), list1.end());
-    assert(list1 == make<list<char> >("niawt kram"));
-    cout << " --- OK." << endl;
-
-    return 0;
+	reverse(list1.begin(), list1.end());
+	assert(list1 == make<list<char> >("niawt kram"));
+	cout << " --- OK." << endl;
+	
+	return 0;
 }

@@ -15,15 +15,15 @@ int main()
 
 	list<int> list1(&a[0], &a[ARRAY_SIZE(a)]);
 	list<int>::iterator it = find(list1.begin(), list1.end(), 7);
-    assert(*it==7&&*(++it)==11);
+	assert(*it==7&&*(++it)==11);
 
 	cout << "Type some characters, including an 'x' followed\n" 
-         << "by at least one nonwhite-space character: " <<flush;
+	     << "by at least one nonwhite-space character: " <<flush;
 	istream_iterator<char> in(cin);
 	istream_iterator<char> eos;
 	find(in, eos, 'x');
 
 	cout << "The first nonwhite-space character following\n"
-         << "the first 'x' was '" << *(++in) << "'." << endl;
+	     << "the first 'x' was '" << *(++in) << "'." << endl;
 	return 0;
 }

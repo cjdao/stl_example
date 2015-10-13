@@ -24,6 +24,7 @@ bool operator!=(const U& lhs, const U& rhs)
 int main()
 {
 	cout << "Demonstrating STL capacity and reserve functions." << endl;
+
 	const int N = 10000;
 	vector<U> vector1, vector2;
 	

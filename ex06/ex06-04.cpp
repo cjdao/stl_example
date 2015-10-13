@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
 	cout << "Demonstrating STL vector copying constructors." << endl;
+
 	char name[] = "George Foreman";
 	vector<char> George(name, name+6);
 	vector<char> anotherGeorge(George.begin(), George.end());
@@ -17,6 +18,7 @@ int main()
 
 	vector<char> son2(George);
 	assert(son2 == anotherGeorge);
+
 	cout << " --- OK." << endl;
 	return 0;
 }

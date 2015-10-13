@@ -15,6 +15,7 @@ int main()
 {
 	cout << "Demonstrating STL vector back "
 	     << "and pop_back operations."<< endl;
+
 	vector<char> vector1 = make<vector<char> >("abcdefghij");
 
 	cout << "Poping characters off the back produces: ";

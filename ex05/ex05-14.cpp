@@ -10,6 +10,7 @@ using namespace std;
 int main()
 {
 	cout << "Illustrating the generic random_shuffle algorithm." << endl;
+
 	const int N = 20;
 	vector<int> vector1(N);
 	for (int i=0; i<N; i++)
