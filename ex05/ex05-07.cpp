@@ -13,6 +13,7 @@ void print_list(const string &s)
 int main()
 {
 	cout << "Illustrating the generic for_each algorithm." << endl;
+
 	list<string> dlist;
 	dlist.push_back("Clark");
 	dlist.push_back("Rindt");
@@ -20,5 +21,6 @@ int main()
 
 	for_each(dlist.begin(), dlist.end(), print_list);
 
+	cout << " --- OK." << endl;
 	return 0;
 }

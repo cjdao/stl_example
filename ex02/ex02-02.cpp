@@ -16,9 +16,9 @@ int main()
 {
 	cout << "Using reverse algorithm with a vector." << endl;
 	vector<char> vector1 = make<vector<char> >("mark twain");
-    reverse(vector1.begin(), vector1.end());
-    assert(vector1 == make<vector<char> >("niawt kram"));
-    cout << " --- OK." << endl;
-
-    return 0;
+	reverse(vector1.begin(), vector1.end());
+	assert(vector1 == make<vector<char> >("niawt kram"));
+	cout << " --- OK." << endl;
+	
+	return 0;
 }

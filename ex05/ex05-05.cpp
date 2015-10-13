@@ -10,6 +10,7 @@ using namespace std;
 int main()
 {
 	cout << "Illustrating the generic adjacent_find algorithm."<< endl;
+
 	deque<string> player(5);
 	
 	player[0] = "Pele";
@@ -18,7 +19,7 @@ int main()
 	player[3] = "Maradona";
 	player[4] = "Rossi";
 
-    deque<string>::iterator where;
+	deque<string>::iterator where;
 	where = adjacent_find(player.begin(), player.end());
 	assert(*where == "Maradona"&&*(where+1) == "Maradona");
 

@@ -9,6 +9,7 @@ int sum(int val1, int val2) {return val1+val2;}
 int main()
 {
 	cout << "Illustrating the generic transform algorithm." << endl;
+
 	const int N = 5;
 	int array1[N] = {0,1,2,3,4};
 	int array2[N] = {6,7,8,9,10};

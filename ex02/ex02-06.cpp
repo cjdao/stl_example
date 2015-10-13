@@ -15,10 +15,10 @@ Container make(const char *s)
 int main()
 {
 	cout << "Demonstrating generic find algorithm with "
-         << "an vector." << endl;
+	     << "an vector." << endl;
 
 	vector<char> v1 = make<vector<char> >("C++ is a better c");
-    vector<char>::iterator where = find(v1.begin(), v1.end(), 'e');
+	vector<char>::iterator where = find(v1.begin(), v1.end(), 'e');
 	assert(*where == 'e' && *(where+1) == 't');
 
 	cout << " --- OK." << endl;

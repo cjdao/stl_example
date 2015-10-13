@@ -8,9 +8,10 @@ using namespace std;
 int main()
 {
 	cout << "Illustrating the generic remove algorithm." << endl;
+
 	const int N  = 11;
 	int array[N] = {1,2,0,3,4,0,5,6,7,0,8};
-	vector<int>	 vector1;
+	vector<int> vector1;
 	int i;
 	for (i=0; i<N; i++)
 		vector1.push_back(array[i]);

@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
 	cout << "Using an in-place generic sort algorithm." << endl;
+
 	int i = 0;
 	int a[ARRAY_SIZE];
 	for (i=0; i!=ARRAY_SIZE; i++) {

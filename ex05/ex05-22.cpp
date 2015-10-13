@@ -14,6 +14,7 @@ int main()
 {
     cout << "Illustrating the generic sort , stable_sort, and"
          << " partial_sort algorithms." << endl;
+
     const int N = 20;
     
     vector<int> vector0;

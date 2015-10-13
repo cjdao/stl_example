@@ -11,7 +11,8 @@ using namespace std;
 int main()
 {
 	cout << "Illustrating the generic equal and mismatch algorithms."
-         << endl;
+	     << endl;
+
 	list<string> driver_list;
 	vector<string> vec;
 	deque<string> deq;
@@ -40,5 +41,7 @@ int main()
 			 << *(pair1.first) << " and " << *(pair1.second)
 			 << endl;
 	}
+
+	cout << " --- OK." << endl;
 	return 0;
 }

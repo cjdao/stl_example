@@ -15,12 +15,12 @@ Container make(const char *s)
 int main()
 {
 	cout << "Demonstrating generic find algorithm with "
-         << "an list." << endl;
+	     << "an list." << endl;
 
 	list<char> l1 = make<list<char> >("C++ is a better c");
-    list<char>::iterator where = find(l1.begin(), l1.end(), 'e');
-    list<char>::iterator next = where;
-    next++;
+	list<char>::iterator where = find(l1.begin(), l1.end(), 'e');
+	list<char>::iterator next = where;
+	next++;
 	assert(*where == 'e' && *next == 't');
 
 	cout << " --- OK." << endl;

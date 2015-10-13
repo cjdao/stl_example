@@ -12,8 +12,8 @@ bool above40(int x) {return x>40;}
 int main()
 {
 	cout << "Illustrating the genenric partition "
-		 << " and stable_partition algorithm."
-		 << endl;
+	     << " and stable_partition algorithm."
+	     << endl;
 
 	const int N = 7;
 	int array0[N] = {50, 30, 10, 70, 60, 40, 20};
@@ -36,5 +36,6 @@ int main()
 	copy(&array1[0], split, out);cout << "| ";
 	copy(split, &array1[N], out);cout << endl;
 	
+	cout << " --- OK." << endl;
 	return 0;
 }

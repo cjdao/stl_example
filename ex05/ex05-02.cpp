@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	cout << "Using reverse_copy, a copying version "
-         <<  "of the generic reverse algorithm" << endl;
+	     <<  "of the generic reverse algorithm" << endl;
 
 	int a[ARRAY_SIZE], b[ARRAY_SIZE];
 
@@ -22,6 +22,7 @@ int main()
 	for (i=0; i!=ARRAY_SIZE; i++) {
 		assert(a[i] == i && b[i] == (ARRAY_SIZE-i-1));
 	}
+
 	cout << " --- OK." << endl;
 	return 0;
 }

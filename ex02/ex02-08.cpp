@@ -15,10 +15,10 @@ Container make(const char *s)
 int main()
 {
 	cout << "Demonstrating generic find algorithm with "
-         << "an deque." << endl;
+	     << "an deque." << endl;
 
 	deque<char> q1 = make<deque<char> >("C++ is a better c");
-    deque<char>::iterator where = find(q1.begin(), q1.end(), 'e');
+	deque<char>::iterator where = find(q1.begin(), q1.end(), 'e');
 	assert(*where == 'e' && *(where+1) == 't');
 
 	cout << " --- OK." << endl;
