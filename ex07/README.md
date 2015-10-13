@@ -30,14 +30,14 @@
 ### 类型
 set 和 multiset 具有下列模板参数
 
-```
+```cpp
 template <typename Key, typename Compare=less<Key>, class Allocator=allocator<Key> >
 ```
 
 set 和 multiset的迭代器是**双向迭代器**
 
 ### 构造函数
-```
+```cpp
 set (const Compare& comp = Cmpare());
 
 template <typename InputIterator>
@@ -48,14 +48,14 @@ set (const set<Key, Compare, Allocator>& otherSet);
 
 ### 插入
 set:
-```
+```cpp
 pair<iterator,bool> insert(const value_type& x);
 ```
 
 iterator 指向x在集合中的位置，bool类型指示插入是否成功。
 
 multiset:
-```
+```cpp
 iterator insert(const value_type& x);
 ```
 
