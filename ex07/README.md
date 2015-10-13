@@ -52,7 +52,7 @@ set:
 //iterator 指向x在集合中的位置，bool类型指示插入是否成功。
 pair<iterator,bool> insert(const value_type& x);
 ```
-
+multiset:
 ```cpp
 //iterator 指向x在集合中的位置
 iterator insert(const value_type& x);
