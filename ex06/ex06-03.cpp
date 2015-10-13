@@ -28,7 +28,7 @@ bool operator!=(const U& lhs, const U& rhs)
 int main()
 {
 	cout << "Demonstrating STL vector constractors with "
-         << "a user_defined type." << endl;
+	     << "a user_defined type." << endl;
  	vector<U> vector1, vector2(3);
 	assert(vector1.size() == 0);
 	assert(vector2.size() == 3);
@@ -36,7 +36,7 @@ int main()
 
 	for (int i=0; i!=3; i++) {
 		cout << "vector2[" << i << "].generation: " 
-             << vector2[i].generation << endl;
+		     << vector2[i].generation << endl;
 	}
 	cout << "Total copies: " << U::total_copies<< endl;
 	return 0;

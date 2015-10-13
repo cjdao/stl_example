@@ -28,7 +28,7 @@ int main()
 	vector<U> vector1, vector2;
 	
 	cout << "Doing "  << N << " insertions in vector1, \n"
-		 << "with no advance reservation." << endl;
+	     << "with no advance reservation." << endl;
 	int k;
 	for (k=0; k!=N; k++) {
 		vector<U>::size_type cap = vector1.capacity();

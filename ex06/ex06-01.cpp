@@ -11,11 +11,11 @@ int main()
 	assert(vector1.size() == 0);
 	assert(vector2.size() == 3);
 	assert(vector2[0]=='x'&&
-           vector2[1]=='x'&&
-		   vector2[2]=='x');
+	       vector2[1]=='x'&&
+	       vector2[2]=='x');
 
 	assert(vector2 == vector<char>(3,'x') && 
-           vector2 != vector<char>(4, 'x'));
+	       vector2 != vector<char>(4, 'x'));
 
 	cout << " --- OK." << endl;
 	return 0;

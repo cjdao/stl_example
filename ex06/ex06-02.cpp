@@ -23,7 +23,7 @@ bool operator!=(const U& lhs, const U& rhs)
 int main()
 {
 	cout << "Demonstrating STL vector constractors with "
-         << "a user_defined type." << endl;
+	     << "a user_defined type." << endl;
  	vector<U> vector1, vector2(3);
 	assert(vector1.size() == 0);
 	assert(vector2.size() == 3);

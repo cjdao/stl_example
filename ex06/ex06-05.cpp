@@ -15,7 +15,7 @@ Container make(const char *s)
 int main()
 {
 	vector<char> vector1 = make<vector<char> >("Bjarne Stroustrup"),
-                 vector2;
+	             vector2;
 	vector<char>::iterator i;
 
 	cout << "Demonstrating vector push_back function." << endl;
@@ -28,6 +28,7 @@ int main()
 	vector2 = make<vector<char> >("");
 	for (i=vector1.begin(); i!=vector1.end(); i++)
 		vector2.insert(vector2.begin(), *i);
+
 	assert(vector2 == make<vector<char> >("purtsuortS enrajB"));
 	reverse(vector1.begin(), vector1.end());
 	assert(vector1 == vector2);
