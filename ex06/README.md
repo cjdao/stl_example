@@ -28,8 +28,10 @@ vector<T> vector1(first, last);
           [ex06-02.cpp](https://github.com/cjdao/stl_example/blob/master/ex06/ex06-02.cpp) 
           [ex06-03.cpp](https://github.com/cjdao/stl_example/blob/master/ex06/ex06-03.cpp) 
           [ex06-04.cpp](https://github.com/cjdao/stl_example/blob/master/ex06/ex06-04.cpp) 
+
 ### 1.3 插入
-* 对于vector的插入操作，最有用的是push_back操作，其在vector的末尾插入元素, 其分摊时间复杂度为常数。
+*  对于vector的插入操作，最有用的是push_back操作，其在vector的末尾插入元素, 其分摊时间复杂度为常数。
+
 ## 双端队列(deque)
 
 
