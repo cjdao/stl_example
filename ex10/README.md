@@ -3,4 +3,6 @@
 
 * 在大多数情况下，并不需要直接使用只有迭代器，因为每一种STL容器都提供了两种类型的方向迭代器(实际上就是通过反向迭代器适配器实现的)，即reverse_iterator 和　const_reverse_iterator。此外每一种STL容器还提供了rbegin和rend成员函数，这两个函数可以在循环中使用，也可以作为参数提供给算法，用来指定序列的起始和末尾，但顺序和常规的顺序相反。
 
-* 示例代码：[ex10-01.cpp](https://github.com/cjdao/stl_example/blob/master/ex10/ex10-01.cpp)
+* reverse_iterator类中定义了base成员函数，其作用是返回该反向迭代器所指的原始迭代器。反向迭代器和原始迭代器之间存在一个基本的关系，即　&*r == &*(r.base()-1), 因为r.begin()==i.end()-1
+
+* 示例代码：[ex10-01.cpp](https://github.com/cjdao/stl_example/blob/master/ex10/ex10-01.cpp) [ex10-02.cpp](https://github.com/cjdao/stl_example/blob/master/ex10/ex10-02.cpp)
