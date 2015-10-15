@@ -9,6 +9,8 @@
  4. 函数对象可以带有数据成员，因此也很容易定义能够在调用中保存某
      种状态的函数
 
+* [STL支持的函数对象](http://www.cplusplus.com/reference/functional/)
+
 * 示例代码：
   [ex08-01.cpp](https://github.com/cjdao/stl_example/blob/master/ex08/ex08-01.cpp)
   [ex08-02.cpp](https://github.com/cjdao/stl_example/blob/master/ex08/ex08-02.cpp)
