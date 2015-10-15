@@ -49,5 +49,5 @@
 * priority_queue提供的操作包括：empty, size, top, push 和 pop
 
 * priority_queue容器适配器可以用于任何一种提供了**随机访问迭代器**和empty、size、push_back、pop_back、front操作以及comp比较对象的容器
-
+> list不能提供随机访问迭代器，所以不能用于priority_queue
 * 示例代码：[ex09-03.cpp](https://github.com/cjdao/stl_example/blob/master/ex09/ex09-03.cpp)
