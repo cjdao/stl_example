@@ -5,7 +5,7 @@
 模板类的形式定义的，并且以另一种STL组件的类型作为其参数。STL提供
 了3种类型的适配器：**容器适配器**，**迭代器适配器**和**函数适配器**。
 
-## 1.stack容器适配器
+## 1.[stack容器适配器](http://www.cplusplus.com/reference/stack/stack/)
 * stack容器适配器可以用于vector list 或deque:
  * stack<T>是类型为T的栈，默认情况下以deque实现
  * stack<T, vector<T> >是类型为T的栈，以vector实现
@@ -24,7 +24,7 @@
 
 * 示例代码：[ex09-01.cpp](https://github.com/cjdao/stl_example/blob/master/ex09/ex09-01.cpp)
 
-## 2.queue容器适配器
+## 2.[queue容器适配器](http://www.cplusplus.com/reference/queue/queue/)
 * queue容器适配器可以用于 list 或deque:
  * queue<T>是类型为T的队列，默认情况下以deque实现
  * queue<T, list<T> >是类型为T的，以list实现
@@ -38,7 +38,7 @@
 
 * 示例代码：[ex09-02.cpp](https://github.com/cjdao/stl_example/blob/master/ex09/ex09-02.cpp)
 
-## 3.priority_queue容器适配器
+## 3.[priority_queue容器适配器](http://www.cplusplus.com/reference/queue/priority_queue/)
 所谓优先级队列是指一种序列，在这种序列中，根据元素间的某种特定的排序准则，只有序列中的最大元素可以被第一个检索。
 
 * priority_queue容器适配器可以用于vector和deque：
