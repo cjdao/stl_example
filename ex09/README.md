@@ -3,7 +3,7 @@
 ## 什么是适配器
 适配器也是STL的一种组件，其作用是改变其他STL组件的接口。它们是以
 模板类的形式定义的，并且以另一种STL组件的类型作为其参数。STL提供
-了3种类型的适配器：容器适配器，迭代器适配器和函数适配器。
+了3种类型的适配器：**容器适配器**，**迭代器适配器**和**函数适配器**。
 
 ## 1.stack容器适配器
 * stack容器适配器可以用于vector list 或deque:
@@ -22,5 +22,20 @@
 * stack容器适配器可以用于任何一种支持empty、size、push_back、pop_back和
   back操作的容器
 
+* 示例代码：[ex09-01.cpp]()
+
 ## 2.queue容器适配器
+* queue容器适配器可以用于 list 或deque:
+ * queue<T>是类型为T的队列，默认情况下以deque实现
+ * queue<T, list<T> >是类型为T的，以list实现
+ * queue<T, deque<T> >是类型为T的，以deque实现(与queue<T>相同)
+
+* queue提供的操作包括：empty, size, front, back, push 和 pop
+
+* stack容器适配器可以用于任何一种支持empty、size、push_back、pop_front、front
+  back操作的容器
+> vector 不支持pop_front操作，所以不能用于queue
+
+* 示例代码：[ex09-02.cpp]()
+
 ## 3.priority_queue容器适配器
