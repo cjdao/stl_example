@@ -15,3 +15,8 @@
 ## 2.取反器
 用来对判决函数对象的结果取反的函数适配器。STL提供了两种取反器：not1和not2.
 
+* [not1](http://www.cplusplus.com/reference/functional/not1/)　对一元判决函数进行取反
+
+* [not2](http://www.cplusplus.com/reference/functional/not2/)　对二元判决函数进行取反
+
+* 示例代码：[ex11-01.cpp](https://github.com/cjdao/stl_example/blob/master/ex11/ex11-01.cpp)
